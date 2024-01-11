@@ -1,0 +1,25 @@
+{
+  "name": "researchproject",
+  "version": "1.0.0",
+  "description": "- **Name:** Anton Labeeuw\r - **Education:** Studying at Howest Kortrijk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "prettier": {
+    "arrowParens": "avoid",
+    "endOfLine": "lf",
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": false
+  }
+}
